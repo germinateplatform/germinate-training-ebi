@@ -1,2 +1,3 @@
-# germinate-training-ebi
-Training for the EMBL-EBI training course 'Plant genomes: from data to discovery'
+# Germinate Training
+
+Please visit https://germinateplatform.github.io/germinate-training
