@@ -2,7 +2,7 @@
 
 This training was created for the EMBL EBI course 'Plant genomes: from data to discovery'
 
-To get started click <a href="index.html">index.html</a>
+To get started go to https://germinateplatform.github.io/germinate-training-ebi/
 
 We will use the Germinate Demo database for this training which can be accessed from https://germinate.hutton.ac.uk/demo.
 
