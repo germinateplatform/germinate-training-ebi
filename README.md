@@ -2,7 +2,9 @@
 
 This training was created for the EMBL EBI course 'Plant genomes: from data to discovery'
 
-We will use the Germinate Demo database for this training which can be accessed from https://germinate.hutton.ac.uk/demo. 
+To get started click <a href="index.html">index.html</a>
+
+We will use the Germinate Demo database for this training which can be accessed from https://germinate.hutton.ac.uk/demo.
 
 There may be more content here than we can cover in the course but don't worry, you can bookmark this page and come back again in the future.
 
