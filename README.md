@@ -6,8 +6,6 @@ The following material has been developed to allow you to get some experience in
 
 To get started go to https://germinateplatform.github.io/germinate-training-ebi/
 
-We will use the Germinate Demo database for this training which can be accessed from https://germinate.hutton.ac.uk/demo.
-
 There may be more content here than we can cover in the course but don't worry, you can bookmark this page and come back again in the future.
 
 Additional information on Germinate is available from https://germinate.hutton.ac.uk including links to other crop specific databases and papers, code and other resources on using the platform.
