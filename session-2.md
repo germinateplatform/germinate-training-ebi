@@ -6,26 +6,28 @@
 ## Plant genomes: from data to discovery EBI Virtual Course
 
 # Session 2: Experiments, Datasets, other Data Resources and Groups
-### Go to [https://germinate.hutton.ac.uk/demo](https://germinate.hutton.ac.uk/demo) to follow along with this material.
+
 
 Germinate can hold large amounts of experimental data (millions of data points). These can include data from phenotypic trials, genotypic SNP (or other indexed polymorphism) data, chemical compound information and climate measurements. Germinate currently supports 3 levels of granularity for data. Individual data points (level 3) make up datasets (level 2). Datasets are assigned to experiments (level 1). So an experiment contains one more more datasets and a dataset contains one or more data points. Figure 1 shows the hierarchy of data levels in Germinate.
+
+### Go to [https://germinate.hutton.ac.uk/demo](https://germinate.hutton.ac.uk/demo) to follow along with this material.
 
 <img src="session-2/4.png"  style="max-width: 50%;">
 
 
-Experiments are the overarching level of granularity. A dataset can only be assigned to one dataset. Experiments are accessed by clicking on the ***Experiments*** menu item on the left hand side Germinate menu.
+Experiments are the overarching level of granularity. A dataset can only be assigned to one dataset. Experiments are accessed by clicking on the ***Data*** then ***Experiments*** menu item on the left hand side Germinate menu.
 
 <img src="session-2/experiments.png" style="max-width: 100%;">
 
-Using the Germinate Demo database we can see that there are 6 different experiments we have access to. If you look closely under the **Dataset types** column you will see that some of them have icons and numbers. The icons shows particular data types; climate, field trials, genotype and chemical compound data types. The number next to each icon shows the number of datasets in the experiment of that type. Take for example the **GWAS data** experiment. This has 2 field trial and 2 genotype datasets contained within its experiment container. If you are not sure what each icon represents just hover your mouse over it and the description will be displayed in a popup.
+Using the Germinate Demo database we can see that there are 6 different experiments we have access to. If you look closely under the **Dataset types** column you will see that some of them have icons and numbers. The icons shows particular data types; climate, field trials, genotype and chemical compound data types. The number next to each icon shows the number of datasets in the experiment of that type. Take for example the **GWAS data** experiment which has an ***Experiment id*** of ***4***. This has 2 field trial and 2 genotype datasets contained within its experiment container. If you are not sure what each icon represents just hover your mouse over it and the description will be displayed in a popup.
 
 Datasets allow experimental data recorded at the same time to be grouped together. An example would be all the trials data for a specific site in a specific year. An experiment allows the grouping of datasets into a logical unit so for example, all the trials data across multiple sites and years. These grouping allow data which is logically related to one another to be grouped together for easy searching and analysis.
 
-Datasets are the smallest grouping of data in Germinate and represent a single unit of data like a single field trial. The datasets page shows all datasets stored in Germinate. Clicking on the dataset name will take you to the corresponding data export pages. The icon buttons at the right side of the table will reveal information about collaborators, dataset attributes and download options. 
+Datasets are the smallest grouping of data in Germinate and represent a single unit of data like a single field trial. The datasets page which can be accessed by selecting ***Data*** then ***Datasets*** from the left hand menu shows all datasets stored in Germinate. The icon buttons at the right side of the table will reveal information about collaborators, dataset attributes and download options (you may need to scroll horizontally to see these). Clicking on the dataset name in the table will take you to the corresponding data export pages. 
 
 Experiments group together coherent datasets into meaningful combinations. This way, field trials data can be linked to the corresponding climate data as well as any genotypic data that is linked to it. The dataset type column shows what types of datasets are contained in this experiment.
 
-### Click on the 'GWAS data' dataset.
+### Click on the 'GWAS data' dataset with the Experiment id of 4. Something is up it wont work....
 
 When you look at the ***Datasets*** page you may notice that some entries are highlighted (in this case in red). This shows where a data licence has been applied to dataset. Germinate supports assigning licences to datasets. These licences are user defined when the dataset is submitted and can be as restrictive or open as required. All data in the demo database for example is released under a CC-BY-NC licence to promote the data use in other projects. To get additional information on Creative Commons licences have a look at <a href="https://creativecommons.org/">https://creativecommons.org</a> and while other licence are available, and indeed may be more appropriate for your data this is a good starting point.
 
@@ -43,26 +45,28 @@ You will see that once you accept the licence all datasets that are assigned **t
 > If you are not logged into Germinate you will need to accept any data licences next time you use the platform.
 
 
+
+
 <img src="session-2/datasets-license-accepted.png" style="max-width: 100%;">
 
-Datasets can have additional metadata associated with them. This ensures that any additional information that is relevant to a dataset can be associated with it. Germinate currently supports Dublin Core metadata for datasets. Information from collaborators to where the dataset is from can be stored when data is submitted to Germinate. The example below shows where a location for a dataset has been provided and visualized in a geographical context. These sorts of tools are really useful in making data exploration interactive and showing users where datasets have been collected.
-
-<img src="session-2/dataset-location.png" style="max-width: 100%;">
+Datasets can have additional metadata associated with them. This ensures that any additional information that is relevant to a dataset can be associated with it. Germinate currently supports Dublin Core metadata for datasets. Information from collaborators to where the dataset is from can be stored when data is submitted to Germinate. 
 
 ## Exporting data from datasets
 
-Lets export some data and look at the options that are available in Germinate. Click on dataset 4 **Sample Trials Data** from the ***Datasets*** page in the Germinate Demo database. You should now see something like this:
+### Click on the 'GWAS data' dataset with the Experiment id of 4. It should work this time :-)
+
+Lets export some data and look at the options that are available in Germinate. You should now see something like this:
 
 <img src="session-2/trials-export.png" style="max-width: 100%;">
 
-The coloured boxes show the different data visualization and data export options that are available for this dataset. There are also selection mechanisms to choose traits of interest and also to choose which groups you want to export data from. Groups will be covered later in this material but it is a way to allow subsets of large germplasm collections to be created and used to export data against. You only get data for germplasm entries that you are actually interested in. Here we are going to select only the traits highlighted in grey, and we won't use a specific group in this case. We are also going to click the **Data statistics** option choose sum traits, then finally click on **Plot**. Germinate will now go and perform some basic calculations to generate box plots for those traits across all germplasm entries within the selected dataset.
+The coloured boxes show the different data visualization and data export options that are available for this dataset. There are also selection mechanisms to choose traits of interest and also to choose which groups you want to export data from. Groups will be covered later in this material but it is a way to allow subsets of large germplasm collections to be created and used to export data against. You only get data for germplasm entries that you are actually interested in. Here we are going to select only the traits highlighted in grey, and we won't use a specific group in this case. Choose some traits, then finally click on **Plot**. Germinate will now go and perform some basic calculations to generate box plots for those traits across all germplasm entries within the selected dataset. Hover your mouse over the chart to show additional information.
 
 <img src="session-2/trials-boxplot.png" style="max-width: 100%;">
 Now click on the **Data matrix** option and select the traits again then click on **Plot** which will generate a matrix of scatter plots as shown here. Try hovering your mouse pointer over points to see what additional information is displayed.
 
 <img src="session-2/trials-matrix.png" style="max-width: 100%;">
 
-These charts are very informative but we can improve by introducing colour. In the **Colour by** section below where we selected our phenotypes click and select the **Location** option in the drop down box.
+These charts are very informative but we can improve by introducing colour. In the **Colour by** section which is just above the chart select the **Location** or **Trial site** option in the drop down box.
 
 <img src="session-2/trials-matrix-color-by.png" style="max-width: 100%;">
 
@@ -73,7 +77,8 @@ Cilck on the location name in the plot legend to turn on and off the data series
 <img src="session-2/trials-matrix-colored-by-site.png" style="max-width: 100%;">
 
 
-The final dataset visualization that we will show here is the **Comparison** tool which allows us to compare lines within a line group to be compared using boxplots. Boxplots allow us to visualize the spread of data. Single phenotypes can be selected then the charts redrawn. This tools is very effective in looking across germplasm within a group looking for lines with high or low values as well as identifying lines where data may be inaccurate or have unusual outliers (very high or very low values). Click the **Comparison** option then select traits as before, now choose a group (this is a new step required for the **Comparison** option) then click on **Compare** and a chart similar to this will be generated. 
+The final dataset visualization that we will show here is the **Comparison** tool which allows us to compare lines within a line group to be compared using boxplots. Boxplots allow us to visualize the spread of data. Single phenotypes can be selected then the charts redrawn. This tools is very effective in looking across germplasm within a group looking for lines with high or low values as well as identifying lines where data may be inaccurate or have unusual outliers (very high or very low values). Click the **Comparison** option then select a **single** trait this time, now choose a group (this is a new step required for the **Comparison** option) then click on **Compare** and a chart similar to this will be generated. 
+
 <img src="session-2/trials-comparison.png" style="max-width: 100%;">
 
 The charts are interactive so if you hover over a boxplot the charts will show the maximum value, median value and minimum value along with the first and third quartile values. Our boxplot visualization can also be exported into bitmap or vector based formats for use in presentations or publications as well as tools to allow colours to be changed and allowing users to download the underlying data used to generate the chart.
@@ -98,7 +103,7 @@ Finally, all data from datasets can be exported in text format. We offer an inte
 
 <br/>
 
-# Working with Groups
+# Working with Groups (If you have time)
 
 So far we have been looking at data for the whole set of germplasm and all markers. In many cases, people do not want to download **all** available data, but only a **specific subset** of interest. To facilitate this, Germinate uses the mechanism of **groups** and **lists**. These groupings are used to define meaningful subsets of germplasm, markers and locations. **Groups** are persistantly stored subsets of data while **lists** are available just to yourself.
 
@@ -122,11 +127,13 @@ Similarly, when exploring data visually using charts, you can use the chart sele
 Then draw a shape around the data points you wish to select. 
 
 
-Go to **'Data'** then **'Trials Data'** then select dataset with the ID of 5. Then cilck in **'Data Matrix'** and plot for Ear Height, Ear number per plant and Ear Length. Now colour the chart based on **'Treatment'**. You will then see somthing like this:
+Go to **'Data'** then **'Trials data'** then **'Trials export'** then select dataset with the ID of 5. Then cilck in **'Data Matrix'** and plot for Ear Height, Ear number per plant and Ear Length. Now colour the chart based on **'Treatment'**.
+
+Use the rectangle (Box) selection tool from the chart options at the top right of the chart to draw around a group of the data points. The number of selected germplasm in this area is highlighted in the blue ellipse in the top right of the chart (there should be a hundred or so but it really depends on how big your rectangle was and which cell in the scatter matrix you chose). Now add the selection to your current list by using the additional chart options represented by the dropdown menu with the three vertical dots and select '**Mark selected items**'.
 
 <img src="session-2/group-creation-chart-selection-example.png" style="max-width: 100%;">
 
-Use the rectangle selection tool to draw around a group of the data points. The number of selected germplasm in this area is highlighted in the blue ellipse in the top right of the chart (there should be a hundred or so but it really depends on how big your rectangle was and which cell in the scatter matrix you chose). Now add the selection to your current list by using the additional chart options represented by the dropdown menu with the three vertical dots and select '**Mark selected items**'.
+
 
 
 You can see the content of your list at any time by clicking on the respective marked item button in the top right corner of Germinate. In this case you can see that we have **387** germplasm entries, **796** genetic markers and **0** locations in our group but yours will probably be slightly different. 
@@ -142,9 +149,10 @@ We will use groups in the next couple of tutorials where we will look at exporti
 ## Tasks:
 
 1. <details><summary>Go to the groups page. How many maps groups are there?</summary>Answer: There are 2 germplasm groups, 3 marker groups and 116 location groups.</details>
-2. <details><summary>Select the germplasm groups then choose the one named 'F1 generation'. Explore the information that is available for one of the plants and explore.</summary>You should be able to access all the background data we have on each line on these pages. They contain a lot of information sometimes so explore and remember that data is always in the same order - in every Germinate database.</details>
+2. <details><summary>Select the germplasm groups then choose the one named 'F1 generation'. Explore the information that is available for one of the plants.</summary>You should be able to access all the background data we have on each line on these pages. They contain a lot of information sometimes so explore and remember that data is always in the same order - in every Germinate database.</details>
 3. <details><summary>Go to dataset with the ID of 5. Now plot ear length against ear height using the data matrix option. Now limit this to just the 'Subselection based on pedigree' group. Colour based on 'treatment'. What is the plant line with the largest 'ear length' value?</summary>Answer: CACTUAR-1930</details>
 4. <details><summary>Now using the chart from 3. create a group with all lines where 'ear height' is above 200. How many are there?</summary>Answer: 3</details>
 
 These are simple examples but will give you an appreciation on how groups can be created. The best way to see how groups works is to experiment, create some and watch that group indicator increase or decrease as you add and remove plant lines.
 
+## Now are are ready to learn about <a href="session-3.html">'Session 3: Genotypic and Phenotypic Data'</a>

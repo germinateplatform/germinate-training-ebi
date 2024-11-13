@@ -129,6 +129,4 @@ The passport page of a germplasm is where all information available for this ger
 3. <details><summary>Navigate to the passport page for the line whose country of collection is <strong>Kenya</strong> where the elevation is above <strong>1500m</strong> and the accession biological status is equal to <strong>Natural</strong>. What datasets does this line appear in?</summary>There are 4 datasets that this line appears in. Datasets "Sample Phenotype Data",  "Sample Compound Data", "Sample Genotype Data Subset 2." and "Default pedigree dataset."</details>
 
 
-## Now are are ready to learn about <a href="session2.html">'Session 2: Experiments, Datasets, other Data Resources and Groups'</a>
-
-This training is released under an CC BY-NC-SA 4.0 licence.
+## Now are are ready to learn about <a href="session-2.html">'Session 2: Experiments, Datasets, other Data Resources and Groups'</a>

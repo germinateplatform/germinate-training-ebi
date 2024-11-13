@@ -6,11 +6,11 @@
 ## Plant genomes: from data to discovery EBI Virtual Course
 
 # Session 4: Geographic Data and Searching
-### Go to [https://germinate.hutton.ac.uk/demo](https://germinate.hutton.ac.uk/demo) to follow along with this material.
-
 <br/>
 
 # Searching for data
+
+### Go to [https://germinate.hutton.ac.uk/demo](https://germinate.hutton.ac.uk/demo) to follow along with this material.
 
 If you ever find yourself searching for a germplasm, a marker, a trait, or a location but you don't know the exact name, then the Germinate-wide search is where you'll find it. Simply type in a name-fragment into the search box at the top of the page and hit enter. Alternatively, first navigate to the search page using the main menu.
 
@@ -119,4 +119,6 @@ But what can we do now we can accurately select locations within Germinate? Well
 
 
 
-## Thanks for taking the time to complete this traning. We hope that this will allow you to have more confidence in using Germinate, know a bit more about what it does and provide you with foundations on which you can go on to explore it further, perhaps with your own datasets!
+## Thanks for taking the time to complete this traning. We hope that this will allow you to have more confidence in using Germinate, know a bit more about what it does and provide you with foundations on which you can go on to explore it further, perhaps with your own datasets! 
+
+## For additional information on germinate you can visit https://germinate.hutton.ac.uk, drop us an email germinate@hutton.ac.uk or reach out to us on X @germinatehub.

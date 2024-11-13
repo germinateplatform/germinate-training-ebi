@@ -30,7 +30,7 @@ We will use the Germinate Demo database for this training which can be accessed 
 
 - <a href="session-1.html">Session 1: The Germinate Web Interface and Working with Germplasm</a>
 - <a href="session-2.html">Session 2: Experiments, Datasets, other Data Resources and Groups</a>
-- <a href="session-3.html">Session 3: Genotypic and Phenotypic Data</a>
+- <a href="session-3.html">Session 3: Phenotypic Data (Continued) and Genotypic Data</a>
 - <a href="session-4.html">Session 4: Geographic Data and Searching</a>
 
 If you have any questions please just ask!
